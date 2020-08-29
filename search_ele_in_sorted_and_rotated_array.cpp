@@ -43,6 +43,7 @@ ll bin(ll arr[],ll i,ll j,ll key,ll &pos)
 
     else  bin(arr,i,mid-1,key,pos);
     return -1;
+    
 
 }//recursive function for binary search
 
